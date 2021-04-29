@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Register</title>
+
+  <!--<link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>-->
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="scripts/jqueryDev.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/frame.css">
+
+</head>
+
+<body>  
+    <div id="top" class="topnav">
+
+        <a id="#home" href="WebSite.html" target="_self" class="active" onclick="myFunction(this)">
+            <i class="fa fa-home"></i> Home</a>
+
+        <img id="L" src="img/LL.jpeg" style="padding-left: 450px">
+
+        <a id="login" href="index.html" onclick="myFunction(this)"> <i class="fa fa-fw fa-user"></i> Login</a>
+
+        <a id="logout"  onclick="logout()"> <i class="fa fa-fw fa-user"></i> Logout</a>
+        <a id="Reg" href="register.html" onclick="myFunction(this)">Registration</a>
+        <a id="username"></a>
+    </div>
+    <br>
+  <div class="regdiv">
+    <div id="ca">
+      <h1>Create Account</h1>
+    </div>
+       
+    
+
+    <form id="myform" method="GET" action="Website.html">
+     <input type="text" id="unm" placeholder="First Name "  name="usrnm" accesskey="n"> &nbsp&nbsp&nbsp <input type="text" id="unml" placeholder="Last Name " name="usrnm" accesskey="n">
+     <br>
+     
+      <input  id="pass1" type="password" placeholder="Enter Your Passowrd"  name="usrpswd">
+     <br>
+     <input id="pass2" type="password" placeholder="Confirm Your Passowrd"  name="usrpswd1">
+     <br>
+     <div id="confirmation"></div>
+     <br>
+      <input type="email" id="mail" placeholder="Enter Your Email"  name="usrmail" onmouseout="checkmail()">
+     <br>    
+    
+      <input type="text" id="phone" placeholder="Enter Your Mobile" name="usrnmob" onmouseout="checkphone()" >
+     <br>
+     
+        <input type="radio" name="gender" value="F" id="fid" tabindex=""><label for="fid">Female</label>
+        
+        <input type="radio" name="gender" value="M"  id="mid"><label for="mid">Male</label>
+        <br><br>
+      <input id="check1" type="checkbox">  <label for="checkbox">I accept the terms of use and privacy policy</label>
+      <br>
+      <div id="termcondition"></div>
+      <br><br>
+        <input type="submit" id="rn" value="Register now " onclick="validation()">
+        <br><br>
+
+        <div class="already">
+          <span>Already have an account? <a id="ahref" href="index.html">Sign in</a>    </span>
+        </div>
+
+
+    </form>
+    
+
+
+  </div>
+  <div style="display: none">
+    <div id="dialog" title="Warning">
+      <p> Enter the email with correct format </p>
+    </div>
+    <div id="dialog2" title="Warning">
+      <p> Enter the mobile number correctly </p>
+    </div>
+    <div id="dialog3" title="Warning">
+      <p> Enter the first name </p>
+    </div>
+    <div id="dialog4" title="Warning">
+      <p> Enter the last name </p>
+    </div>
+    <div id="dialog5" title="Warning">
+      <p> Select gender  </p>
+    </div>
+    <div id="dialog6" title="Warning">
+      <p> Email already used</p>
+    </div>
+
+</div>
+
+ 
+   
+
+
+
+  <!--<script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>-->
+  <script src="js/cookiefunctions.js"> </script>
+  <script src="js/register.js"> </script>
+
+
+
+</body>
+
+</html>

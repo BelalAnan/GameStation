@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Log-in</title>
+  <script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="scripts/jqueryDev.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+       <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!--    <link rel="stylesheet" href="/resources/demos/style.css">-->
+    <link rel="stylesheet" href="css/frame.css">
+
+</head>
+
+<body>
+     <div id="top" class="topnav">
+
+        <a id="#home" href="WebSite.html" target="_self" class="active" onclick="myFunction(this)">
+            <i class="fa fa-home"></i> Home</a>
+
+        <img id="L" src="img/LL.jpeg" style="padding-left: 450px">
+
+        <a id="login" href="index.html" onclick="myFunction(this)"> <i class="fa fa-fw fa-user"></i> Login</a>
+
+        <a id="logout"  onclick="logout()"> <i class="fa fa-fw fa-user"></i> Logout</a>
+        <a id="Reg" href="register.html" onclick="myFunction(this)">Registration</a>
+        <a id="username"></a>
+    </div>
+    <br>
+
+    
+  <div class="login-card">
+    <h1>Log-in</h1><br>
+  <form id="loginF" method="GET" action="WebSite.html">
+    <input id="tname" type="email" name="user" placeholder="Email">
+    <input type="password" id ="pass" name="pass" placeholder="Password">
+    <input type="submit" name="login" class="loginF login-submit" value="Log in">
+  </form>
+
+  <div class="login-help">
+    <a href="register.html">Register</a>
+  </div>
+</div>
+<div id="all" style="display: none">
+  <div id="dialogemail" title="Warning">
+    <p>Email does not exist, you need to sign up</p>
+ </div>
+ <div id="dialogpassword" title="Warning">
+   <p>Password is incorrect</p>
+ 
+ </div>
+ 
+</div>
+
+
+  <script src="js/cookiefunctions.js"> </script>
+  <script src="js/login.js"></script>
+
+
+</body>
+
+</html>

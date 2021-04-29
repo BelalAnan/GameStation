@@ -1,0 +1,188 @@
+.topnav {
+    
+     background-color: #12232E;
+     overflow:hidden;
+     width: 100%;
+}
+
+
+        /* Style the links inside the navigation bar */
+      
+.topnav a {
+        
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.search-container form {
+    
+     background-color: #12232E;
+     float: left;
+     text-align: center;
+     padding: 14px 16px;
+  
+}
+
+#S {
+    float: left;
+   
+    font-size: 20px;
+}
+
+#Sbtn {
+     float: left;
+    margin-left: 10px;
+    width: 30px;
+    height: 28px;
+}
+
+
+#GS{
+    
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 0px 200px;
+     font-family:fantasy;
+     font-size: 17px;
+     background-color:  #12232E;
+          
+}
+
+
+        /* Add a color to the active/current link */
+      
+.active {
+         
+   background-color:  #12232E;
+}
+
+
+.topnav a:hover {
+    
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+#login,#Reg, #logout, #username{
+    
+   float: right;
+}
+
+#username:hover{
+    background-color:#12232E;
+    color: whitesmoke;
+
+}
+
+body {
+    
+    margin: 0;
+    font-family: sans-serif;
+    background-color:#283747;
+   
+    
+}
+
+
+#frame{
+    
+    text-align: center;
+    padding-top: 15px;
+   
+}
+
+#outergame{
+    
+    
+     border: solid 13px #12232E;
+     width: 1000px;
+     height: 450px;
+     box-shadow: 4px 4px 14px #000;
+}
+  
+
+
+
+/*Purple Tinged Grey: #283747
+
+Cloud: #F3F3F3
+Blue Minded: #004E7C
+Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB
+Blue Light: #00DDFF
+
+Brutal Blue: #0049B7
+Night Blue: #2d545e
+
+Night Blue Shadow: #12343b
+Bluewater lowlight: #39a0ca
+*/
+
+
+
+.butoonnavbar {
+    
+  overflow:hidden;
+  
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 14%;
+  background-color:#12232E;
+}
+
+
+#logo{
+    
+    position:absolute;
+    left: 90%;
+    top: 0%;
+}
+
+
+#GS2{
+    position:absolute;
+    left: 83%;
+    top: 25%;
+    color: #f2f2f2;
+    font-family:fantasy;
+     font-size: 17px;
+    
+}
+
+#L{
+    padding-left: 160px;
+    width:200px;
+    height:55px;
+}
+#about1{
+    
+   padding-top: 15px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+#terms{
+    
+    font-size: 12px;
+    text-align: left;
+     padding-left: 40px;
+}
+
+

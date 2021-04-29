@@ -1,0 +1,299 @@
+img {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 35px;
+}
+
+
+
+body {
+
+    min-height: 90%;
+    min-width: 900px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+
+    /*background-size:cover;*/
+    position: fixed;
+    /*background-repeat: repeat;*/
+}
+
+label {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px
+}
+
+#score {
+    position: relative;
+}
+
+#d1 {}
+
+#live1,
+#live2,
+#live3 {
+    left: auto;
+    position: relative;
+    top: 0px;
+}
+
+#Music {
+    left: 90%;
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#ReStart {
+    left: 83%;
+    position: absolute;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#mario {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+}
+
+
+
+#enem1 {
+    position: absolute;
+    left: 210px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#enem2 {
+    position: absolute;
+    left: 530px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+#tiles {
+    position: absolute;
+    left: 490px;
+    bottom: 110px;
+    width: 190px;
+}
+
+
+#chimeny {
+    position: absolute;
+    left: 280px;
+    bottom: 43px;
+}
+
+#chimeny1 {
+    position: absolute;
+    left: 380px;
+    bottom: 43px;
+    height: 60px;
+}
+
+#CHHH {
+    position: absolute;
+    left: 820px;
+    bottom: 43px;
+    height: 60px;
+}
+
+#chimeny3 {
+    position: absolute;
+    left: 880px;
+    bottom: 43px;
+    height: 60px;
+}
+
+#chimeny4 {
+    position: absolute;
+    left: 640px;
+    bottom: 43px;
+    height: 60px;
+}
+
+#tiles1 {
+    position: absolute;
+    left: 970px;
+    bottom: 160px;
+    width: 190px;
+}
+
+
+
+
+.coin {
+    width=40px;
+    height=40px;
+    position: fixed;
+}
+
+#coin1 {
+    left: 120px;
+    bottom: 45px;
+}
+
+#coin2 {
+    left: 165px;
+    bottom: 70px;
+}
+
+#coin3 {
+    left: 220px;
+    bottom: 95px;
+}
+
+#coin4 {
+    left: 280px;
+    bottom: 120px;
+}
+
+#coin5 {
+    left: 335px;
+    bottom: 150px;
+}
+
+#coin6 {
+    left: 470px;
+    bottom: 250px;
+}
+
+#coin7 {
+    left: 1000px;
+    bottom: 270px;
+}
+
+#coin8 {
+    left: 765px;
+    bottom: 50px;
+}
+
+#coin9 {
+    left: 770px;
+    bottom: 50px;
+}
+
+#coin10 {
+    left: 390px;
+    bottom: 120px;
+}
+
+
+#coin11 {
+    left: 980px;
+    bottom: 50px;
+}
+
+#coin12 {
+    left: 525px;
+    bottom: 170px;
+}
+
+#coin14 {
+    left: 620px;
+    bottom: 170px;
+}
+
+#coin13 {
+    left: 690px;
+    bottom: 205px;
+}
+
+
+#coin15 {
+    left: 480px;
+    bottom: 50px;
+}
+
+#coin16 {
+    left: 640px;
+    bottom: 50px;
+}
+
+#coin26 {
+    left: 760px;
+    bottom: 90px;
+}
+
+#coin17 {
+    left: 590px;
+    bottom: 50px;
+}
+
+#coin18 {
+    left: 725px;
+    bottom: 240px;
+}
+
+#coin19 {
+    left: 770px;
+    bottom: 190px;
+}
+
+
+#home {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 1410px;
+    bottom: 40px;
+
+}
+
+#flag {
+    width: 50px;
+    height: 180px;
+    position: absolute;
+    left: 1400px;
+    bottom: 37px;
+
+}
+
+#theGame {
+    background-image: url(background.jpeg);
+
+    background-size: 1000px 425px;
+    background-position: 0px;
+    /* border: 1px solid black;*/
+
+    width: 1000px;
+    height: 425px;
+    overflow: hidden;
+}
+
+#UpperGame,
+    {
+    /* top: 40px;
+    left: 60px;*/
+
+    align-content: center;
+    margin: center;
+    position: absolute;
+}
+
+#gameover,
+#youwin,
+.startAgain {
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    background-color: Transparent;
+    border: 0px;
+}

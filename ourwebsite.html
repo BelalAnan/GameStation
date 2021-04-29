@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+   </head>
+<body onload="DisplayData()" style="font-weight: bolder;">
+
+   
+    <script>
+        function DisplayData()
+        {
+           
+            var Userfirstname =  getCookie("userFirstName");
+            var Uselastname =  getCookie("userLastName");
+            var useremail = getCookie("userEmail");
+            var gender = getCookie("userGender");
+           
+            document.write("Welcome  " + Userfirstname + "  " + Uselastname + " your email is " + useremail + " your gender is  " + gender );
+            
+            var cookieArr = allCookieList();
+            
+        }
+        
+            
+        
+    </script>
+    <script src="cookiefunctions.js"></script> 
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> hangman </title>
+    <script src="scripts/jqueryDev.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/hangman.css">
+
+     
+</head>
+
+<body>
+    
+<div id="body">
+    
+    
+    <!--Game title-->
+   <img src="img/hangman.png" id="img2" >
+    
+  <br><br><br><br>
+    
+    <!--- Sub title -->
+   <h1  id="p1"> Use the alphabet below to guess the word, or click hint to get a clue. </h1>
+    
+    
+    <!-- buttons container -->
+   <div id="div2"></div>
+    
+    <br><br><br><br>
+    
+    <!-- Category-->
+    
+    <select id="myselect" >
+        <option value="">
+          Kindly choose categoury
+        </option>
+        <option value="cities">
+          Cities
+        </option>
+        <option value="films"> 
+          Films
+        </option>
+        <option football_clubs>
+          football_clubs
+        </option>
+      </select>
+    
+    
+    <br><br>
+    
+    <span id="h4"> Choose Category First :  <span id="s1"></span> </span>
+    
+    <br><br>
+      
+    <button  id="but1" onclick="playagain()">Play-Again</button> &nbsp&nbsp&nbsp
+    <button  id="but2" onclick="showhint()">Hint</button>
+    
+    <h4 id="hint">  </h4>
+
+    <div id="divframe">
+        
+        
+        <div id="d1"></div>
+        <div id="div3"></div>
+    </div>
+    
+    <div id="dialog" title="Unfortunately" > </div>
+       
+    <div id="dialog1" title="Congratulations "> </div>
+    <div id="dialog2" title="warning"></div>
+       
+ <!--  <div >
+<button class="button" id="play">Play</button>
+<button class="button" id="pause">Pause</button>
+</div>-->
+  
+ </div>
+    
+     
+  <script src="js/hangman2.js"></script>
+</body>
+</html>

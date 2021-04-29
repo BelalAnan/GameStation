@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/angrybirds.css">
+    <script src="/scripts/jqueryDev.js"></script>
+    <script src="/scripts/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<!--     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>-->
+    <script src="js/angry.js"></script>
+</head>
+
+<body>
+    <h2 id='scr' style='display: inline-block'> Score = 0 </h2>
+    <div style="display: inline-block;position: absolute; left: 800px;">
+        <img id='l1' src="img/Heart-icon.png" class='lives'>
+        <img id='l2' src="img/Heart-icon.png" class='lives'>
+        <img id='l3' src="img/Heart-icon.png" class='lives'>
+    </div>
+    <div id="dialog-confirm" title="Empty the recycle bin?">
+        <!--  <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>Up to Level Two. D?</p>-->
+    </div>
+    <div id="start">
+        <h1>Angry Birds</h1>
+        <input type="button" value="Start Game?" onclick="resetGame()">
+    </div>
+    <div id="gameover">
+        <h1>Game Over</h1>
+        <input type="button" value="Play Again?" onclick="resetGame()">
+    </div>
+    <div id="youwin">
+        <h1>You Win!</h1>
+        <input type="button" value="Play Again?" onclick="resetGame()">
+    </div>
+    <div id="level">
+        <h1>Up to Level Two!<br>
+            Only Kill The Red Birds!</h1>
+    </div>
+    <div id='b'>
+    </div>
+
+
+</body></html>
